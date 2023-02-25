@@ -1,0 +1,36 @@
+@font-face {
+  font-family: Poppins;
+  src: url(./Poppins-Regular.ttf);
+  font-display: swap;
+}
+/* css */
+body {
+  margin: 0;
+  font-family: Poppins;
+}
+
+#two-col-a {
+  background-color: #f2f2f2;
+}
+#two-col-a div:nth-child(1) h2 {
+  color: #203345;
+}
+#two-col-a div:nth-child(1) p {
+  color: #203345;
+}
+#two-col-a div:nth-child(1) button {
+  color: #203345;
+  padding: 10px 20px;
+  border: 2px solid #203345;
+  border-radius: 0;
+  width: fit-content;
+  height: fit-content;
+}
+#two-col-a div:nth-child(1) button:hover, #two-col-a div:nth-child(1) button:focus {
+  text-decoration: underline;
+}
+#two-col-a img {
+  object-fit: cover;
+}
+
+/*# sourceMappingURL=app.css.map */

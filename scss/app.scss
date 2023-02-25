@@ -1,0 +1,35 @@
+@import "variables";
+
+/* css */
+
+body {
+    margin: 0;
+    font-family: Poppins;
+}
+
+#two-col-a {
+    background-color: $c1;
+    div:nth-child(1) {
+        h2 {
+            color: $c3;
+        }
+        p {
+            color: $c3;
+        }
+        button {
+            color: $c3;
+            padding: 10px 20px;
+            border: 2px solid $c3;
+            border-radius: 0;
+            width: fit-content;
+            height: fit-content;
+            &:hover,
+            &:focus {
+                text-decoration: underline;
+            }
+        }
+    }
+    img {
+        object-fit: cover;
+    }
+}
